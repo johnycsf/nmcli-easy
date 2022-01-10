@@ -15,7 +15,7 @@ echo "Please enter the GATEWAY or your Router IP"
 read gw
 echo "Please enter a name for the connection for the connection"
 read coname
-"echo "Working..."; sleep 1
+echo "Working..."; sleep 1
 nmcli con add con-name $coname ifname $NICname type ethernet ip4 $ipaddr gw4 $gw
 echo ""
 echo "Please enter the DNS of choice, Only 1 DNS IP!"
@@ -34,4 +34,4 @@ echo ""
 echo "Testing..."; sleep 1
 ping -c 4 www.google.com
 echo ""
-echo "Done"
+echo "Done!"
