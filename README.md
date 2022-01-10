@@ -8,3 +8,6 @@ I am having troubles remembering all the commands so I made this to be an intera
 Some servers it's eth0, others are eno1, other it's enp0s3, etc...
 You need to know and enter it when prompted for NIC name when running the script!
 
+***Script must be run as root!***
+sudo bash nmcli-easy.sh
+
