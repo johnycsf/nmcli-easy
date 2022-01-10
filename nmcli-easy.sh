@@ -30,6 +30,7 @@ nmcli con mod $coname +ipv4.dns $dns2
 echo""
 echo "Making sure connection starts on boot!"; sleep 1
 nmcli con mod $coname connection.autoconnect yes
+nmcli con up $coname
 echo ""
 echo "Testing..."; sleep 1
 ping -c 4 www.google.com
