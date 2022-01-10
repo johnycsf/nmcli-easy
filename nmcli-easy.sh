@@ -34,4 +34,4 @@ echo ""
 echo "Testing..."; sleep 1
 ping -c 4 www.google.com
 echo ""
-echo "Done!"
+echo "Done"
